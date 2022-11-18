@@ -64,5 +64,11 @@ public class Guest {
         this.banStatus = banStatus;
     }
 
+    public char getCurrencyHeld() {
+        return currencyHeld;
+    }
 
+    public void setCurrencyHeld(char currencyHeld) {
+        this.currencyHeld = currencyHeld;
+    }
 }
